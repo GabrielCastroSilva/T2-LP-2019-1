@@ -1,45 +1,1254 @@
-!SESSION 2019-03-28 21:32:41.677 -----------------------------------------------
-eclipse.buildId=4.9.0.I20180906-0745
-java.version=1.8.0_191
+!SESSION 2019-02-27 03:46:30.045 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_202
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
-!ENTRY org.eclipse.egit.ui 2 0 2019-03-28 21:32:56.167
+!ENTRY org.eclipse.egit.ui 2 0 2019-02-27 03:46:58.923
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'Z:\'. If this is
+user global configuration and to define the default location to store repositories: 'C:\Users\gabri'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2019-03-28 21:45:51.087 -----------------------------------------------
-eclipse.buildId=4.9.0.I20180906-0745
-java.version=1.8.0_191
+!SESSION 2019-02-27 03:51:15.597 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_202
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
-!ENTRY org.eclipse.egit.ui 2 0 2019-03-28 21:46:14.403
+!ENTRY org.eclipse.egit.ui 2 0 2019-02-27 03:51:29.280
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'Z:\'. If this is
+user global configuration and to define the default location to store repositories: 'C:\Users\gabri'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2019-03-28 21:56:38.090 -----------------------------------------------
-eclipse.buildId=4.9.0.I20180906-0745
-java.version=1.8.0_191
+!SESSION 2019-03-30 15:32:04.639 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_202
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
-!ENTRY org.eclipse.egit.ui 2 0 2019-03-28 21:57:02.993
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-30 15:32:24.141
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'Z:\'. If this is
+user global configuration and to define the default location to store repositories: 'C:\Users\gabri'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-03-30 15:33:16.048 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-30 15:33:27.785
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gabri'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-03-28 22:10:48.501
-!MESSAGE No repository found at http://download.eclipse.org/eclipse/updates/4.9-P-builds/.
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-03-30 15:49:13.610
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2019-03-30 15:49:13.610
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.610
+!MESSAGE Software being installed: Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.group 2.10.0.v201605250459)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.610
+!MESSAGE Software being installed: Xtext Complete SDK 2.17.0.v20190304-1445 (org.eclipse.xtext.sdk.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 15:49:13.610
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.610
+!MESSAGE Xtext Redistributable 2.17.0.v20190304-1445 (org.eclipse.xtext.redist.feature.jar 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.610
+!MESSAGE Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.jar 2.10.0.v201605250459)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 15:49:13.610
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.610
+!MESSAGE From: Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.group 2.10.0.v201605250459)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.610
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.jar [2.10.0.v201605250459,2.10.0.v201605250459]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 15:49:13.610
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.610
+!MESSAGE From: Xtext Redistributable 2.17.0.v20190304-1445 (org.eclipse.xtext.redist.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.610
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.jar [2.17.0.v20190304-1445,2.17.0.v20190304-1445]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 15:49:13.610
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.610
+!MESSAGE From: Xtext Complete SDK 2.17.0.v20190304-1445 (org.eclipse.xtext.sdk.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.610
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.group [2.17.0.v20190304-1445,2.17.0.v20190304-1445]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-03-30 15:49:13.619
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2019-03-30 15:49:13.619
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.619
+!MESSAGE Software being installed: Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.group 2.10.0.v201605250459)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.619
+!MESSAGE Software being installed: Xtext Complete SDK 2.17.0.v20190304-1445 (org.eclipse.xtext.sdk.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 15:49:13.619
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.619
+!MESSAGE Xtext Redistributable 2.17.0.v20190304-1445 (org.eclipse.xtext.redist.feature.jar 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.619
+!MESSAGE Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.jar 2.10.0.v201605250459)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 15:49:13.619
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.619
+!MESSAGE From: Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.group 2.10.0.v201605250459)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.619
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.jar [2.10.0.v201605250459,2.10.0.v201605250459]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 15:49:13.619
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.619
+!MESSAGE From: Xtext Redistributable 2.17.0.v20190304-1445 (org.eclipse.xtext.redist.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.619
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.jar [2.17.0.v20190304-1445,2.17.0.v20190304-1445]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 15:49:13.619
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.619
+!MESSAGE From: Xtext Complete SDK 2.17.0.v20190304-1445 (org.eclipse.xtext.sdk.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.619
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.group [2.17.0.v20190304-1445,2.17.0.v20190304-1445]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-03-30 15:49:13.634
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2019-03-30 15:49:13.634
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.634
+!MESSAGE Software being installed: Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.group 2.10.0.v201605250459)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.634
+!MESSAGE Software being installed: Xtext Complete SDK 2.17.0.v20190304-1445 (org.eclipse.xtext.sdk.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 15:49:13.634
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.634
+!MESSAGE Xtext Redistributable 2.17.0.v20190304-1445 (org.eclipse.xtext.redist.feature.jar 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.634
+!MESSAGE Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.jar 2.10.0.v201605250459)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 15:49:13.634
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.634
+!MESSAGE From: Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.group 2.10.0.v201605250459)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.634
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.jar [2.10.0.v201605250459,2.10.0.v201605250459]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 15:49:13.634
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.634
+!MESSAGE From: Xtext Redistributable 2.17.0.v20190304-1445 (org.eclipse.xtext.redist.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.634
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.jar [2.17.0.v20190304-1445,2.17.0.v20190304-1445]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 15:49:13.634
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.634
+!MESSAGE From: Xtext Complete SDK 2.17.0.v20190304-1445 (org.eclipse.xtext.sdk.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.634
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.group [2.17.0.v20190304-1445,2.17.0.v20190304-1445]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-03-30 15:49:13.635
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2019-03-30 15:49:13.635
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.635
+!MESSAGE Software being installed: Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.group 2.10.0.v201605250459)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.635
+!MESSAGE Software being installed: Xtext Complete SDK 2.17.0.v20190304-1445 (org.eclipse.xtext.sdk.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 15:49:13.635
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.635
+!MESSAGE Xtext Redistributable 2.17.0.v20190304-1445 (org.eclipse.xtext.redist.feature.jar 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.635
+!MESSAGE Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.jar 2.10.0.v201605250459)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 15:49:13.635
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.635
+!MESSAGE From: Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.group 2.10.0.v201605250459)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.635
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.jar [2.10.0.v201605250459,2.10.0.v201605250459]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 15:49:13.635
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.635
+!MESSAGE From: Xtext Redistributable 2.17.0.v20190304-1445 (org.eclipse.xtext.redist.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.635
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.jar [2.17.0.v20190304-1445,2.17.0.v20190304-1445]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 15:49:13.635
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.635
+!MESSAGE From: Xtext Complete SDK 2.17.0.v20190304-1445 (org.eclipse.xtext.sdk.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 15:49:13.635
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.group [2.17.0.v20190304-1445,2.17.0.v20190304-1445]
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2019-03-30 15:57:07.130
+!MESSAGE An error occurred while committing the engine session for profile: C__Users_gabri_eclipse_java-2018-12_eclipse.
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2019-03-30 15:57:07.131
+!MESSAGE An error occurred while undoing the org.eclipse.equinox.internal.p2.engine.phases.Collect phase.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.getProfileDataDirectory(EngineSession.java:81)
+	at org.eclipse.equinox.internal.p2.engine.Phase.prePerform(Phase.java:117)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollBackPhase(EngineSession.java:233)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollback(EngineSession.java:182)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:89)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:178)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:190)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2019-03-30 15:57:10.178 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-30 15:57:20.812
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gabri'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-03-30 16:04:49.229
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2019-03-30 16:04:49.229
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.229
+!MESSAGE Software being installed: Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.group 2.10.0.v201605250459)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.229
+!MESSAGE Software being installed: Xtext Complete SDK 2.17.0.v20190304-1445 (org.eclipse.xtext.sdk.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 16:04:49.229
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.229
+!MESSAGE Xtext Redistributable 2.17.0.v20190304-1445 (org.eclipse.xtext.redist.feature.jar 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.229
+!MESSAGE Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.jar 2.10.0.v201605250459)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 16:04:49.229
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.229
+!MESSAGE From: Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.group 2.10.0.v201605250459)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.229
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.jar [2.10.0.v201605250459,2.10.0.v201605250459]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 16:04:49.229
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.229
+!MESSAGE From: Xtext Redistributable 2.17.0.v20190304-1445 (org.eclipse.xtext.redist.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.229
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.jar [2.17.0.v20190304-1445,2.17.0.v20190304-1445]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 16:04:49.229
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.229
+!MESSAGE From: Xtext Complete SDK 2.17.0.v20190304-1445 (org.eclipse.xtext.sdk.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.229
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.group [2.17.0.v20190304-1445,2.17.0.v20190304-1445]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-03-30 16:04:49.253
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2019-03-30 16:04:49.253
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.253
+!MESSAGE Software being installed: Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.group 2.10.0.v201605250459)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.253
+!MESSAGE Software being installed: Xtext Complete SDK 2.17.0.v20190304-1445 (org.eclipse.xtext.sdk.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 16:04:49.253
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.253
+!MESSAGE Xtext Redistributable 2.17.0.v20190304-1445 (org.eclipse.xtext.redist.feature.jar 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.253
+!MESSAGE Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.jar 2.10.0.v201605250459)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 16:04:49.253
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.253
+!MESSAGE From: Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.group 2.10.0.v201605250459)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.253
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.jar [2.10.0.v201605250459,2.10.0.v201605250459]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 16:04:49.253
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.253
+!MESSAGE From: Xtext Redistributable 2.17.0.v20190304-1445 (org.eclipse.xtext.redist.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.253
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.jar [2.17.0.v20190304-1445,2.17.0.v20190304-1445]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 16:04:49.253
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.253
+!MESSAGE From: Xtext Complete SDK 2.17.0.v20190304-1445 (org.eclipse.xtext.sdk.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.253
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.group [2.17.0.v20190304-1445,2.17.0.v20190304-1445]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-03-30 16:04:49.277
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2019-03-30 16:04:49.277
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.277
+!MESSAGE Software being installed: Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.group 2.10.0.v201605250459)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.277
+!MESSAGE Software being installed: Xtext Complete SDK 2.17.0.v20190304-1445 (org.eclipse.xtext.sdk.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 16:04:49.278
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.278
+!MESSAGE Xtext Redistributable 2.17.0.v20190304-1445 (org.eclipse.xtext.redist.feature.jar 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.278
+!MESSAGE Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.jar 2.10.0.v201605250459)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 16:04:49.278
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.278
+!MESSAGE From: Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.group 2.10.0.v201605250459)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.278
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.jar [2.10.0.v201605250459,2.10.0.v201605250459]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 16:04:49.278
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.278
+!MESSAGE From: Xtext Redistributable 2.17.0.v20190304-1445 (org.eclipse.xtext.redist.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.278
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.jar [2.17.0.v20190304-1445,2.17.0.v20190304-1445]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 16:04:49.278
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.278
+!MESSAGE From: Xtext Complete SDK 2.17.0.v20190304-1445 (org.eclipse.xtext.sdk.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.278
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.group [2.17.0.v20190304-1445,2.17.0.v20190304-1445]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-03-30 16:04:49.288
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2019-03-30 16:04:49.288
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.288
+!MESSAGE Software being installed: Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.group 2.10.0.v201605250459)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.288
+!MESSAGE Software being installed: Xtext Complete SDK 2.17.0.v20190304-1445 (org.eclipse.xtext.sdk.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 16:04:49.288
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.288
+!MESSAGE Xtext Redistributable 2.17.0.v20190304-1445 (org.eclipse.xtext.redist.feature.jar 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.288
+!MESSAGE Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.jar 2.10.0.v201605250459)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 16:04:49.288
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.288
+!MESSAGE From: Xtext Redistributable 2.10.0.v201605250459 (org.eclipse.xtext.redist.feature.group 2.10.0.v201605250459)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.288
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.jar [2.10.0.v201605250459,2.10.0.v201605250459]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 16:04:49.288
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.288
+!MESSAGE From: Xtext Redistributable 2.17.0.v20190304-1445 (org.eclipse.xtext.redist.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.288
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.jar [2.17.0.v20190304-1445,2.17.0.v20190304-1445]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-03-30 16:04:49.288
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.288
+!MESSAGE From: Xtext Complete SDK 2.17.0.v20190304-1445 (org.eclipse.xtext.sdk.feature.group 2.17.0.v20190304-1445)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-03-30 16:04:49.288
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.xtext.redist.feature.group [2.17.0.v20190304-1445,2.17.0.v20190304-1445]
+!SESSION 2019-03-30 16:14:56.081 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/gabri/eclipse-workspace/ -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-30 16:15:08.049
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gabri'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.emf.ecore 2 0 2019-03-30 16:49:47.849
+!MESSAGE File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1\META-INF\MANIFEST.MF.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/org.xtext.example.mydsl1/META-INF/MANIFEST.MF)[368]: java.lang.Exception: File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1\META-INF\MANIFEST.MF.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.computePlatformPluginToPlatformResourceMap(EcorePlugin.java:420)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.computePlatformURIMap(EcorePlugin.java:571)
+	at org.eclipse.xtext.ui.resource.JavaProjectResourceSetInitializer.computePlatformURIMap(JavaProjectResourceSetInitializer.java:60)
+	at org.eclipse.xtext.ui.resource.JavaProjectResourceSetInitializer.initialize(JavaProjectResourceSetInitializer.java:50)
+	at org.eclipse.xtext.ui.resource.XtextResourceSetProvider.get(XtextResourceSetProvider.java:53)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:364)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:406)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:229)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-30 16:49:47.850
+!MESSAGE File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1\META-INF\MANIFEST.MF.
+!STACK 0
+java.lang.Exception: File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1\META-INF\MANIFEST.MF.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.computePlatformPluginToPlatformResourceMap(EcorePlugin.java:420)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.computePlatformURIMap(EcorePlugin.java:571)
+	at org.eclipse.xtext.ui.resource.JavaProjectResourceSetInitializer.computePlatformURIMap(JavaProjectResourceSetInitializer.java:60)
+	at org.eclipse.xtext.ui.resource.JavaProjectResourceSetInitializer.initialize(JavaProjectResourceSetInitializer.java:50)
+	at org.eclipse.xtext.ui.resource.XtextResourceSetProvider.get(XtextResourceSetProvider.java:53)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:364)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:406)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:229)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.emf.ecore 2 0 2019-03-30 16:49:47.854
+!MESSAGE File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1.ide\META-INF\MANIFEST.MF.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/org.xtext.example.mydsl1.ide/META-INF/MANIFEST.MF)[368]: java.lang.Exception: File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1.ide\META-INF\MANIFEST.MF.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.computePlatformPluginToPlatformResourceMap(EcorePlugin.java:420)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.computePlatformURIMap(EcorePlugin.java:571)
+	at org.eclipse.xtext.ui.resource.JavaProjectResourceSetInitializer.computePlatformURIMap(JavaProjectResourceSetInitializer.java:60)
+	at org.eclipse.xtext.ui.resource.JavaProjectResourceSetInitializer.initialize(JavaProjectResourceSetInitializer.java:50)
+	at org.eclipse.xtext.ui.resource.XtextResourceSetProvider.get(XtextResourceSetProvider.java:53)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:364)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:406)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:229)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-30 16:49:47.854
+!MESSAGE File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1.ide\META-INF\MANIFEST.MF.
+!STACK 0
+java.lang.Exception: File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1.ide\META-INF\MANIFEST.MF.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.computePlatformPluginToPlatformResourceMap(EcorePlugin.java:420)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.computePlatformURIMap(EcorePlugin.java:571)
+	at org.eclipse.xtext.ui.resource.JavaProjectResourceSetInitializer.computePlatformURIMap(JavaProjectResourceSetInitializer.java:60)
+	at org.eclipse.xtext.ui.resource.JavaProjectResourceSetInitializer.initialize(JavaProjectResourceSetInitializer.java:50)
+	at org.eclipse.xtext.ui.resource.XtextResourceSetProvider.get(XtextResourceSetProvider.java:53)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:364)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:406)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:229)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.emf.ecore 2 0 2019-03-30 16:49:47.859
+!MESSAGE File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1.tests\META-INF\MANIFEST.MF.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/org.xtext.example.mydsl1.tests/META-INF/MANIFEST.MF)[368]: java.lang.Exception: File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1.tests\META-INF\MANIFEST.MF.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.computePlatformPluginToPlatformResourceMap(EcorePlugin.java:420)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.computePlatformURIMap(EcorePlugin.java:571)
+	at org.eclipse.xtext.ui.resource.JavaProjectResourceSetInitializer.computePlatformURIMap(JavaProjectResourceSetInitializer.java:60)
+	at org.eclipse.xtext.ui.resource.JavaProjectResourceSetInitializer.initialize(JavaProjectResourceSetInitializer.java:50)
+	at org.eclipse.xtext.ui.resource.XtextResourceSetProvider.get(XtextResourceSetProvider.java:53)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:364)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:406)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:229)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-30 16:49:47.859
+!MESSAGE File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1.tests\META-INF\MANIFEST.MF.
+!STACK 0
+java.lang.Exception: File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1.tests\META-INF\MANIFEST.MF.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.computePlatformPluginToPlatformResourceMap(EcorePlugin.java:420)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.computePlatformURIMap(EcorePlugin.java:571)
+	at org.eclipse.xtext.ui.resource.JavaProjectResourceSetInitializer.computePlatformURIMap(JavaProjectResourceSetInitializer.java:60)
+	at org.eclipse.xtext.ui.resource.JavaProjectResourceSetInitializer.initialize(JavaProjectResourceSetInitializer.java:50)
+	at org.eclipse.xtext.ui.resource.XtextResourceSetProvider.get(XtextResourceSetProvider.java:53)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:364)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:406)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:229)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.emf.ecore 2 0 2019-03-30 16:49:47.860
+!MESSAGE File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1.ui\META-INF\MANIFEST.MF.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/org.xtext.example.mydsl1.ui/META-INF/MANIFEST.MF)[368]: java.lang.Exception: File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1.ui\META-INF\MANIFEST.MF.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.computePlatformPluginToPlatformResourceMap(EcorePlugin.java:420)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.computePlatformURIMap(EcorePlugin.java:571)
+	at org.eclipse.xtext.ui.resource.JavaProjectResourceSetInitializer.computePlatformURIMap(JavaProjectResourceSetInitializer.java:60)
+	at org.eclipse.xtext.ui.resource.JavaProjectResourceSetInitializer.initialize(JavaProjectResourceSetInitializer.java:50)
+	at org.eclipse.xtext.ui.resource.XtextResourceSetProvider.get(XtextResourceSetProvider.java:53)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:364)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:406)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:229)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-30 16:49:47.860
+!MESSAGE File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1.ui\META-INF\MANIFEST.MF.
+!STACK 0
+java.lang.Exception: File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1.ui\META-INF\MANIFEST.MF.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.computePlatformPluginToPlatformResourceMap(EcorePlugin.java:420)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.computePlatformURIMap(EcorePlugin.java:571)
+	at org.eclipse.xtext.ui.resource.JavaProjectResourceSetInitializer.computePlatformURIMap(JavaProjectResourceSetInitializer.java:60)
+	at org.eclipse.xtext.ui.resource.JavaProjectResourceSetInitializer.initialize(JavaProjectResourceSetInitializer.java:50)
+	at org.eclipse.xtext.ui.resource.XtextResourceSetProvider.get(XtextResourceSetProvider.java:53)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:364)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:406)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:229)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.emf.ecore 2 0 2019-03-30 16:49:47.861
+!MESSAGE File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1.ui.tests\META-INF\MANIFEST.MF.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/org.xtext.example.mydsl1.ui.tests/META-INF/MANIFEST.MF)[368]: java.lang.Exception: File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1.ui.tests\META-INF\MANIFEST.MF.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.computePlatformPluginToPlatformResourceMap(EcorePlugin.java:420)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.computePlatformURIMap(EcorePlugin.java:571)
+	at org.eclipse.xtext.ui.resource.JavaProjectResourceSetInitializer.computePlatformURIMap(JavaProjectResourceSetInitializer.java:60)
+	at org.eclipse.xtext.ui.resource.JavaProjectResourceSetInitializer.initialize(JavaProjectResourceSetInitializer.java:50)
+	at org.eclipse.xtext.ui.resource.XtextResourceSetProvider.get(XtextResourceSetProvider.java:53)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:364)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:406)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:229)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-30 16:49:47.861
+!MESSAGE File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1.ui.tests\META-INF\MANIFEST.MF.
+!STACK 0
+java.lang.Exception: File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1.ui.tests\META-INF\MANIFEST.MF.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.computePlatformPluginToPlatformResourceMap(EcorePlugin.java:420)
+	at org.eclipse.emf.ecore.plugin.EcorePlugin.computePlatformURIMap(EcorePlugin.java:571)
+	at org.eclipse.xtext.ui.resource.JavaProjectResourceSetInitializer.computePlatformURIMap(JavaProjectResourceSetInitializer.java:60)
+	at org.eclipse.xtext.ui.resource.JavaProjectResourceSetInitializer.initialize(JavaProjectResourceSetInitializer.java:50)
+	at org.eclipse.xtext.ui.resource.XtextResourceSetProvider.get(XtextResourceSetProvider.java:53)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.doBuild(XtextBuilder.java:364)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.fullBuild(XtextBuilder.java:406)
+	at org.eclipse.xtext.builder.impl.XtextBuilder.build(XtextBuilder.java:229)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.pde.core 4 0 2019-03-30 16:49:47.893
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/org.xtext.example.mydsl1/build.properties)[368]: java.lang.Exception: File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1\build.properties.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.pde.internal.core.build.WorkspaceBuildModel.load(WorkspaceBuildModel.java:71)
+	at org.eclipse.pde.internal.core.builders.BuildErrorReporter.validate(BuildErrorReporter.java:170)
+	at org.eclipse.pde.internal.core.builders.ErrorReporter.validateContent(ErrorReporter.java:105)
+	at org.eclipse.pde.internal.core.builders.ManifestConsistencyChecker.validateBuildProperties(ManifestConsistencyChecker.java:320)
+	at org.eclipse.pde.internal.core.builders.ManifestConsistencyChecker.validateProject(ManifestConsistencyChecker.java:237)
+	at org.eclipse.pde.internal.core.builders.ManifestConsistencyChecker.build(ManifestConsistencyChecker.java:162)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-30 16:49:47.893
+!MESSAGE File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1\build.properties.
+!STACK 0
+java.lang.Exception: File not found: C:\Users\gabri\eclipse-workspace\org.xtext.example.mydsl1\build.properties.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:833)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:280)
+	at org.eclipse.pde.internal.core.build.WorkspaceBuildModel.load(WorkspaceBuildModel.java:71)
+	at org.eclipse.pde.internal.core.builders.BuildErrorReporter.validate(BuildErrorReporter.java:170)
+	at org.eclipse.pde.internal.core.builders.ErrorReporter.validateContent(ErrorReporter.java:105)
+	at org.eclipse.pde.internal.core.builders.ManifestConsistencyChecker.validateBuildProperties(ManifestConsistencyChecker.java:320)
+	at org.eclipse.pde.internal.core.builders.ManifestConsistencyChecker.validateProject(ManifestConsistencyChecker.java:237)
+	at org.eclipse.pde.internal.core.builders.ManifestConsistencyChecker.build(ManifestConsistencyChecker.java:162)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-03-30 16:49:48.866
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2019-03-30 16:49:48.867
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-03-30 16:49:48.867
+!MESSAGE The project description file (.project) for 'org.xtext.example.mydsl1' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-03-30 16:49:48.867
+!MESSAGE The project description file (.project) for 'org.xtext.example.mydsl1.ide' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-03-30 16:49:48.867
+!MESSAGE The project description file (.project) for 'org.xtext.example.mydsl1.tests' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-03-30 16:49:48.867
+!MESSAGE The project description file (.project) for 'org.xtext.example.mydsl1.ui' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-03-30 16:49:48.867
+!MESSAGE The project description file (.project) for 'org.xtext.example.mydsl1.ui.tests' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-03-30 16:49:49.882
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2019-03-30 16:49:55.462 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-03-30 16:49:58.865
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 4 567 2019-03-30 16:49:58.941
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2019-03-30 16:49:58.941
+!MESSAGE Could not read metadata for 'org.xtext.example.mydsl1'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/org.xtext.example.mydsl1)[567]: java.lang.Exception: The project description file (.project) for 'org.xtext.example.mydsl1' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:906)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:892)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:872)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1564)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2454)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2211)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:156)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2019-03-30 16:49:58.942
+!MESSAGE The project description file (.project) for 'org.xtext.example.mydsl1' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'org.xtext.example.mydsl1' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:906)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:892)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:872)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1564)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2454)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2211)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:156)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2019-03-30 16:49:58.942
+!MESSAGE Could not read metadata for 'org.xtext.example.mydsl1.ide'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/org.xtext.example.mydsl1.ide)[567]: java.lang.Exception: The project description file (.project) for 'org.xtext.example.mydsl1.ide' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:906)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:892)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:872)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1564)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2454)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2211)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:156)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2019-03-30 16:49:58.942
+!MESSAGE The project description file (.project) for 'org.xtext.example.mydsl1.ide' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'org.xtext.example.mydsl1.ide' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:906)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:892)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:872)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1564)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2454)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2211)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:156)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2019-03-30 16:49:58.943
+!MESSAGE Could not read metadata for 'org.xtext.example.mydsl1.tests'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/org.xtext.example.mydsl1.tests)[567]: java.lang.Exception: The project description file (.project) for 'org.xtext.example.mydsl1.tests' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:906)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:892)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:872)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1564)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2454)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2211)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:156)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2019-03-30 16:49:58.943
+!MESSAGE The project description file (.project) for 'org.xtext.example.mydsl1.tests' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'org.xtext.example.mydsl1.tests' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:906)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:892)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:872)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1564)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2454)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2211)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:156)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2019-03-30 16:49:58.944
+!MESSAGE Could not read metadata for 'org.xtext.example.mydsl1.ui'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/org.xtext.example.mydsl1.ui)[567]: java.lang.Exception: The project description file (.project) for 'org.xtext.example.mydsl1.ui' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:906)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:892)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:872)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1564)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2454)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2211)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:156)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2019-03-30 16:49:58.944
+!MESSAGE The project description file (.project) for 'org.xtext.example.mydsl1.ui' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'org.xtext.example.mydsl1.ui' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:906)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:892)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:872)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1564)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2454)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2211)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:156)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2019-03-30 16:49:58.945
+!MESSAGE Could not read metadata for 'org.xtext.example.mydsl1.ui.tests'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/org.xtext.example.mydsl1.ui.tests)[567]: java.lang.Exception: The project description file (.project) for 'org.xtext.example.mydsl1.ui.tests' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:906)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:892)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:872)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1564)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2454)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2211)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:156)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2019-03-30 16:49:58.945
+!MESSAGE The project description file (.project) for 'org.xtext.example.mydsl1.ui.tests' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'org.xtext.example.mydsl1.ui.tests' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:906)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:892)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:872)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1564)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2454)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2211)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:782)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:732)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:588)
+	at org.eclipse.osgi.container.Module.start(Module.java:456)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:39)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:156)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-30 16:50:07.406
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gabri'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-03-30 18:00:34.423 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-30 18:00:48.958
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gabri'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-03-30 18:08:41.791 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-30 18:08:54.579
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gabri'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-03-30 18:11:52.800 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-30 18:12:13.085
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gabri'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

@@ -9,20 +9,37 @@ Model:
 Definition:
 	'(' 
 		commands+=Command*
+		value=INT
 	')' 
 ;	
 
 Command:
-	Subtraction
+	Subtraction | Addition | Multiplication | Division
 ;
 	
 	
 	
 Subtraction:
 		
-	'-'name=ID
-	Value=INT
-	Value=INT
+	('-' | 'sub' | 'subtraction') value=INT
 		
 	;
+	
+Addition:
+		
+	('+' | 'add' | 'addition') value=INT
+		
+	;
+	
+Multiplication:
+		
+	('*' | 'mult' | 'multiplication') value=INT
+		
+	;
+	
+Division:
+		
+('/' | 'div' | 'division') value=INT
+		
+;
 	

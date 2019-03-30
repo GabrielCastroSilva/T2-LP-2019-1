@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="MyDslParsingTest" project="org.xtext.example.mydsl.tests" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="org.xtext.example.mydsl.tests.MyDslParsingTest" time="3.206" displayname="MyDslParsingTest" uniqueid="[engine:junit-jupiter]/[class:org.xtext.example.mydsl.tests.MyDslParsingTest]">
-    <testcase name="loadModel" classname="org.xtext.example.mydsl.tests.MyDslParsingTest" time="3.206" displayname="loadModel()" uniqueid="[engine:junit-jupiter]/[class:org.xtext.example.mydsl.tests.MyDslParsingTest]/[method:loadModel()]"/>
-  </testsuite>
-</testrun>

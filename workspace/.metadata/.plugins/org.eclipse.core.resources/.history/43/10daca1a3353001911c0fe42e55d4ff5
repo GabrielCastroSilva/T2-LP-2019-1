@@ -1,0 +1,38 @@
+grammar org.xtext.example.mydsl.MyDsl with org.eclipse.xtext.common.Terminals
+
+generate myDsl "http://www.xtext.org/example/mydsl/MyDsl"
+
+Model:
+	definitions+=Definition*
+	commands+=Command*;
+	
+Definition:
+	'(' 
+		commands+=Command*
+	')' 
+;	
+
+Command:
+	Subtraction | Addition | Multiplication
+;
+	
+	
+	
+Subtraction:
+		
+	('-' | 'sub' | 'subtraction') value=INT value=INT
+		
+	;
+	
+Addition:
+		
+	('+' | 'add' | 'addition') value=INT value=INT
+		
+	;
+	
+Multiplication:
+		
+	('*' | 'mult' | 'multiplication') value=INT value=INT
+		
+	;
+	
