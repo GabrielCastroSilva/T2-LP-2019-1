@@ -3,43 +3,47 @@ grammar org.xtext.example.mydsl.MyDsl with org.eclipse.xtext.common.Terminals
 generate myDsl "http://www.xtext.org/example/mydsl/MyDsl"
 
 Model:
-	definitions+=Definition*
-	commands+=Command*;
+	Model+=List*;
 	
-Definition:
-	'(' 
-		commands+=Command*
-		value=INT
-	')' 
+List:
+	 Simbolo | Exp | Outros 
+;
+	
+Exp:
+	'('Simbolo (Numeros|Exp)* ')'  | Numeros |'(' TFuncoes Numeros')' 
 ;	
 
-Command:
-	Subtraction | Addition | Multiplication | Division
+Simbolo:
+	'/' | '*'  | '-' | '+'| 'list'
 ;
-	
-	
-	
-Subtraction:
-		
-	('-' | 'sub' | 'subtraction') value=INT
-		
-	;
-	
-Addition:
-		
-	('+' | 'add' | 'addition') value=INT
-		
-	;
-	
-Multiplication:
-		
-	('*' | 'mult' | 'multiplication') value=INT
-		
-	;
-	
-Division:
-		
-('/' | 'div' | 'division') value=INT
-		
+
+Numeros:
+	INT | '+'INT  | '-'INT | Decimal
 ;
-	
+Outros:
+	Comentarios | '()'|'(''*'')'| '(''+'')'  |'('Tamanho')'
+;
+
+terminal Decimal:
+	(('.' INT) | (INT '.') | (INT '.' INT)) (('e'|'E') ('+'|'-')? INT)? 
+	//https://www.eclipse.org/Xtext/documentation/301_grammarlanguage.html#common-terminals
+;
+@Override 
+terminal ID: 
+    '^'?('a'..'z'|'A'..'Z'|'_')('a'..'z'|'A'..'Z'|'_'|'0'..'9')*
+;
+ 
+terminal Comentarios: 
+    ';;' !('\n'|'\r')* ('\r'? '\n')?
+;
+
+TFuncoes:
+	'abs'|'cos'| 'square'
+
+;
+Tamanho:
+	'length' Lista
+;
+Lista:
+	'(''list' Numeros*')'
+;
