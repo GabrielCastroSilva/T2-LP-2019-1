@@ -18,13 +18,104 @@ class MyDslParsingTest {
 	@Inject
 	ParseHelper<Model> parseHelper
 	
-	@Test
-	def void loadModel() {
+		@Test
+	def void mais() {
 		val result = parseHelper.parse('''
-			(- 3 3)
+			(+ 5 5)
 		''')
 		Assertions.assertNotNull(result)
 		val errors = result.eResource.errors
-		Assertions.assertTrue(errors.isEmpty, '''Unexpected errors: �errors.join(", ")�''')
+		Assertions.assertTrue(errors.isEmpty, '''Unexpected errors: «errors.join(", ")»''')
+	}
+	@Test
+	def void numroNegativo() {
+		val result = parseHelper.parse('''
+			-5
+		''')
+		Assertions.assertNotNull(result)
+		val errors = result.eResource.errors
+		Assertions.assertTrue(errors.isEmpty, '''Unexpected errors: «errors.join(", ")»''')
+	}
+	@Test
+	def void Numero() {
+		val result = parseHelper.parse('''
+			5
+		''')
+		Assertions.assertNotNull(result)
+		val errors = result.eResource.errors
+		Assertions.assertTrue(errors.isEmpty, '''Unexpected errors: «errors.join(", ")»''')
+	}
+	@Test
+	def void Comentario() {
+		val result = parseHelper.parse('''
+			;;KKKKKKHGFGHFGFHR43543FS432432dsds gfdgfd
+		''')
+		Assertions.assertNotNull(result)
+		val errors = result.eResource.errors
+		Assertions.assertTrue(errors.isEmpty, '''Unexpected errors: «errors.join(", ")»''')
+	}
+	
+	@Test
+	def void exprecao() {
+		val result = parseHelper.parse('''
+			+ 5 +5 +5 +5 +55 + 5+ 
+		''')
+		Assertions.assertNotNull(result)
+		val errors = result.eResource.errors
+		Assertions.assertTrue(errors.isEmpty, '''Unexpected errors: «errors.join(", ")»''')
+	}
+	@Test
+	def void list() {
+		val result = parseHelper.parse('''
+			(list 1 2 3 5)
+		''')
+		Assertions.assertNotNull(result)
+		val errors = result.eResource.errors
+		Assertions.assertTrue(errors.isEmpty, '''Unexpected errors: «errors.join(", ")»''')
+	}
+	@Test
+	def void Tfuncao() {
+		val result = parseHelper.parse('''
+			(abs 2)
+		''')
+		Assertions.assertNotNull(result)
+		val errors = result.eResource.errors
+		Assertions.assertTrue(errors.isEmpty, '''Unexpected errors: «errors.join(", ")»''')
+	}
+	@Test
+	def void parnteses() {
+		val result = parseHelper.parse('''
+			(+ (+ 1 2 3) -2)
+		''')
+		Assertions.assertNotNull(result)
+		val errors = result.eResource.errors
+		Assertions.assertTrue(errors.isEmpty, '''Unexpected errors: «errors.join(", ")»''')
+	}
+	@Test
+	def void parnteses2() {
+		val result = parseHelper.parse('''
+			(/(/ (- 1 2 3) (+ 2 2 5)))
+		''')
+		Assertions.assertNotNull(result)
+		val errors = result.eResource.errors
+		Assertions.assertTrue(errors.isEmpty, '''Unexpected errors: «errors.join(", ")»''')
+	}
+	@Test
+	def void lista() {
+		val result = parseHelper.parse('''
+			(list 1 2 3)
+		''')
+		Assertions.assertNotNull(result)
+		val errors = result.eResource.errors
+		Assertions.assertTrue(errors.isEmpty, '''Unexpected errors: «errors.join(", ")»''')
+	}
+	@Test
+	def void listaTamanho() {
+		val result = parseHelper.parse('''
+			(length(list 1 2 3))
+		''')
+		Assertions.assertNotNull(result)
+		val errors = result.eResource.errors
+		Assertions.assertTrue(errors.isEmpty, '''Unexpected errors: «errors.join(", ")»''')
 	}
 }
