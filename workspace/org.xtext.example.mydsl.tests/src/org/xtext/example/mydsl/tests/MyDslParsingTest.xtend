@@ -21,7 +21,7 @@ class MyDslParsingTest {
 		@Test
 	def void mais() {
 		val result = parseHelper.parse('''
-			(+ 5 5)
+			(+ 11 8)
 		''')
 		Assertions.assertNotNull(result)
 		val errors = result.eResource.errors
@@ -30,7 +30,7 @@ class MyDslParsingTest {
 	@Test
 	def void numroNegativo() {
 		val result = parseHelper.parse('''
-			-5
+			-89
 		''')
 		Assertions.assertNotNull(result)
 		val errors = result.eResource.errors
@@ -39,7 +39,7 @@ class MyDslParsingTest {
 	@Test
 	def void Numero() {
 		val result = parseHelper.parse('''
-			5
+			96
 		''')
 		Assertions.assertNotNull(result)
 		val errors = result.eResource.errors
@@ -48,7 +48,7 @@ class MyDslParsingTest {
 	@Test
 	def void Comentario() {
 		val result = parseHelper.parse('''
-			;;KKKKKKHGFGHFGFHR43543FS432432dsds gfdgfd
+			QWERTYUIOPasdfghjklçZXCVbnm
 		''')
 		Assertions.assertNotNull(result)
 		val errors = result.eResource.errors
@@ -58,7 +58,7 @@ class MyDslParsingTest {
 	@Test
 	def void exprecao() {
 		val result = parseHelper.parse('''
-			+ 5 +5 +5 +5 +55 + 5+ 
+			+ 78 +55 +45 +32 +24 + 11+ 
 		''')
 		Assertions.assertNotNull(result)
 		val errors = result.eResource.errors
@@ -67,7 +67,7 @@ class MyDslParsingTest {
 	@Test
 	def void list() {
 		val result = parseHelper.parse('''
-			(list 1 2 3 5)
+			(list 11 222 3333 55555)
 		''')
 		Assertions.assertNotNull(result)
 		val errors = result.eResource.errors
@@ -76,7 +76,7 @@ class MyDslParsingTest {
 	@Test
 	def void Tfuncao() {
 		val result = parseHelper.parse('''
-			(abs 2)
+			(abs 9)
 		''')
 		Assertions.assertNotNull(result)
 		val errors = result.eResource.errors
@@ -85,7 +85,7 @@ class MyDslParsingTest {
 	@Test
 	def void parnteses() {
 		val result = parseHelper.parse('''
-			(+ (+ 1 2 3) -2)
+			(+ (+ 6 8 9) -4)
 		''')
 		Assertions.assertNotNull(result)
 		val errors = result.eResource.errors
@@ -94,7 +94,7 @@ class MyDslParsingTest {
 	@Test
 	def void parnteses2() {
 		val result = parseHelper.parse('''
-			(/(/ (- 1 2 3) (+ 2 2 5)))
+			(/(/ (- 7 4 1) (+ 6 9 0)))
 		''')
 		Assertions.assertNotNull(result)
 		val errors = result.eResource.errors
@@ -103,7 +103,7 @@ class MyDslParsingTest {
 	@Test
 	def void lista() {
 		val result = parseHelper.parse('''
-			(list 1 2 3)
+			(list 8 1 4)
 		''')
 		Assertions.assertNotNull(result)
 		val errors = result.eResource.errors
@@ -112,7 +112,7 @@ class MyDslParsingTest {
 	@Test
 	def void listaTamanho() {
 		val result = parseHelper.parse('''
-			(length(list 1 2 3))
+			(length(list 9 12 30))
 		''')
 		Assertions.assertNotNull(result)
 		val errors = result.eResource.errors
